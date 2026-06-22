@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.idea/
+results/
+data/Beijing_Dataset/BJ_256_png_dilation/
+.DS_Store
+Thumbs.db
