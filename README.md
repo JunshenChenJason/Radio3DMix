@@ -38,6 +38,13 @@ The following local files are intentionally not included: `BJ_256_png_dilation/`
 
 ## Environment
 
+This repository uses Git LFS for the pretrained `.pt` model weights. After cloning the repository, run:
+
+```bash
+git lfs install
+git lfs pull
+```
+
 Install the Python dependencies:
 
 ```bash
@@ -99,4 +106,3 @@ python Visualization.py
 ```
 
 The default visualization settings are kept small and can be edited in the script according to the generated file name.
-
